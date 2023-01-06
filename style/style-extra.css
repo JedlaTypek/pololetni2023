@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%; 
+}
+main{
+    max-width: 1140px;
+    min-height: 73vh;
+    margin:auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+
+}
+header{
+    background-color: rgb(177, 155, 127);
+    width: 100%;
+    margin-top: 0px;
+    padding: 0px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+footer{
+    background-color: rgb(177, 155, 127);
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+}
+col{
+    width: 33%;
+    background-color: red;
+}
+
+
+h1{
+    text-align: center;
+    color: black;
+}
+h2{
+
+}
+p.cara{
+    color: grey;
+    border-color: grey;
+    border-left: 15px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style:solid;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.row{
+    display: flex;
+}
+.column-33{
+    flex: 33%;
+    margin: 10px;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 15px;
+}
+.collum-50{
+    flex: 50px;
+    padding: 10px;
+    margin: 10px;   
+}
+.img-grow{
+    transition: all .25s ease-in-out;
+}
+.img-grow:hover{
+    transform: scale(1.05);
+}
+table{
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.text-italic{
+    font-style: italic;
+}
+.text-center{
+    text-align: center;
+}
+th{
+    background-color: gray;
+}
