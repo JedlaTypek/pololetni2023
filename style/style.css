@@ -5,7 +5,7 @@ body{
 }
 main{
     max-width: 1140px;
-    min-height: 73vh;
+    min-height: 62vh;
     margin:auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -14,15 +14,16 @@ main{
 
 }
 header{
-    background-color: #292929;
+    background-image:url("../images/header-background-zaklad.jpg");
+    background-size: cover;
     width: 100%;
     margin-top: 0px;
     padding: 0px;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
 }
 footer{
-    background-color: #292929;
+    background-color: #000000;
     color:#34b30a;
     width: 100%;
     padding-top: 2vh;
@@ -32,14 +33,14 @@ footer{
 /* NAV MENU */
 .topnavwrap {
     width: 100%;
-    background-color: #050505;
+    background-color: #000000;
 }
 .topnav {
     margin-left: auto;
     margin-right: auto;
     max-width: 1140px;
     overflow: hidden;
-    background-color: #050505;
+    background-color: #000000;
 }
 
 .topnav a {
@@ -61,6 +62,18 @@ footer{
     color:#34b30a;
 }
 /**/
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
 col{
     width: 33%;
     background-color: red;
@@ -69,7 +82,8 @@ col{
 
 h1{
     text-align: center;
-    color:#34b30a;
+    color:#ffffff;
+    font-size: 5vh;
 }
 h2{
     color:#34b30a;
@@ -79,9 +93,6 @@ h3{
 }
 h4{
     color:#34b30a;
-}
-a{
-
 }
 p.cara{
     color: grey;
