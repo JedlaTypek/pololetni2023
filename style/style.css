@@ -110,6 +110,9 @@ p.cara{
     padding-left: 20px;
     border-radius: 10px;
 }
+.zvyrazneni{
+  color:#34b30a;
+}
 .row{
     display: flex;
 }
