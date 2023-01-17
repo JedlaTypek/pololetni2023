@@ -2,10 +2,11 @@ body{
     margin: 0px;
     padding: 0px;
     width: 100%;
+    font-size: 17px;
 }
 main{
     max-width: 1140px;
-    min-height: 62vh;
+    min-height: 58vh;
     margin:auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -69,12 +70,14 @@ footer{
 }
 
 .flex-container > div {
-  background-color: #ffffff;
-  box-shadow: 0px 0px 8px #888888;
-  width: 400px;
-  margin: 10px;
-  text-align: center;
-  border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px #888888;
+    width: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.flex-container > div > h3{
+    text-align: center;
 }
 col{
     width: 33%;
