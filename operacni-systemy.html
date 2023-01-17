@@ -11,9 +11,9 @@
     <div class="topnavwrap">
         <div class="topnav">
             <a href="index.html">Domů</a>
-            <a href="operacni-systemy.html">Operační systémy</a>
+            <a class="active" href="operacni-systemy.html">Operační systémy</a>
             <a href="aplikacni-software.html">Aplikační software</a>
-            <a class="active" href="softwarove-licence.html">Softwarové licence</a>
+            <a href="softwarove-licence.html">Softwarové licence</a>
             <a href="emulace-a-virtualizace.html">Emulace a Virtualizace</a>
             <a href="cloudove-reseni.html">Cloudové řešení</a>
         </div>
@@ -22,7 +22,7 @@
         <h1>Operační systémy</h1>
     </header>
     <main>
-        <h2>Programové vybavení</h2>
+        <h2 id="programove-vybaveni">Programové vybavení</h2>
         <p>
           Programové vybavení <i>(software)</i> je podmínkou využití technického
           vybavení <i>(hardware)</i>. V raných dobách počítačové éry byly programy
@@ -32,7 +32,7 @@
           operace s hardwarem a nabídly prostředí pro běh aplikací, tj. programů
           určených pro konkrétní účely.
         </p>
-        <h2>Operační systémy</h2>
+        <h2 id="operacni-systemy">Operační systémy</h2>
         <p>
           Základním programovým vybavením počítačů (a jim podobných zařízení) jsou
           <b>operační systémy</b> <i>(OS - Operation System)</i>. Jejich
@@ -42,7 +42,7 @@
           vyžaduje instalaci ovladačů jednotlivých zařízení <i>(drivers)</i> a s
           jejich pomocí zpřístupňuje technické vybavení běžícím procesům.
         </p>
-        <h2>Aplikační rozhraní</h2>
+        <h2 id="aplikacni-rozhrani">Aplikační rozhraní</h2>
         <p>
           Nezbytnou součástí operačních systémů je <b>aplikační rozhraní</b> <i>(API -
           Application Programming Interface)</i>, které nabízí programátorům
@@ -52,7 +52,7 @@
           Interface)</i>, moderní systémy poskytují <b>grafické uživatelské rozhraní</b> <i>(GUI
           - Graphic User Interface)</i> založené na oknech a grafických prvcích.
         </p>
-        <h2>Historie</h2>
+        <h2 id="historie">Historie</h2>
         <p class="cara">
           Na počátku vývoje moderních OS byl víceúlohový a víceuživatelský systém
           <b>UNIX</b>, který se od 70. let používal v sálových počítačích i minipočítačích.
@@ -67,19 +67,19 @@
           počítačích v domácnostech i kancelářích, různé linuxové distribuce
           jsou velmi často instalovány na síťových serverech.
         </p>
-        <h2 style="text-align: center;">Současné operační systémy pro osobní počítače:</h2>
+        <h2 id="soucasne-operacni-systemy" style="text-align: center;">Současné operační systémy pro osobní počítače:</h2>
         <div class="row">
           <div class="column-33" style="text-align:center; background-color:#00adef;">
-            <img src="images/windows.png" style="width:90px" class="img-grow">
-            <h3 style="color:black">Windows</h3>
+            <a style="text-decoration: none" href="https://www.microsoft.com/cs-cz/windows" target="_blank"><img src="images/windows.png" style="width:90px" class="img-grow" alt="logo windowsu">
+            <h3 style="color:black;">Windows</h3></a>
           </div>
-          <div class="column-33" style="text-align:center; background-color:#E95420;">
-            <img src="images/ubuntu.png" style="width:90px">
-            <h3 style="color:black">Linux</h3>
+          <div class="column-33" style="text-align:center; background-color:#f3cc0b;">
+            <a style="text-decoration: none" href="http://www.linux.cz/" target="_blank"><img src="images/linux.png" style="width:90px" class="img-grow" alt="logo linuxu">
+            <h3 style="color:black">Linux</h3></a>
           </div>
           <div class="column-33" style="text-align:center; background-color:#C0BFC0">
-            <img src="images/macos.png" style="width:90px">
-            <h3 style="color:black">MacOs</h3>
+            <a style="text-decoration: none" href="https://www.apple.com/cz/macos/ventura/" target="_blank"><img src="images/macos.png" style="width:90px" class="img-grow" alt="logo MacOs">
+            <h3 style="color:black">MacOs</h3></a>
           </div>
         </div>
     </main>

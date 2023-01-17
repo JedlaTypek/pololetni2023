@@ -35,13 +35,16 @@ footer{
 .topnavwrap {
     width: 100%;
     background-color: #000000;
+    justify-content: center;
 }
 .topnav {
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     max-width: 1140px;
     overflow: hidden;
     background-color: #000000;
+    display: block;
 }
 
 .topnav a {
@@ -70,8 +73,8 @@ footer{
 }
 
 .flex-container > div {
-    background-color: #ffffff;
-    box-shadow: 0px 0px 8px #888888;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px #4d4d4d;
     width: 400px;
     margin: 10px;
     border-radius: 15px;

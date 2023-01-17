@@ -13,16 +13,16 @@
             <a href="index.html">Domů</a>
             <a href="operacni-systemy.html">Operační systémy</a>
             <a href="aplikacni-software.html">Aplikační software</a>
-            <a class="active" href="softwarove-licence.html">Softwarové licence</a>
-            <a href="emulace-a-virtualizace.html">Emulace a Virtualizace</a>
-            <a href="cloudove-reseni.html">Cloudové řešení</a>
+            <a href="softwarove-licence.html">Softwarové licence</a>
+            <a class="active" href="emulace-a-virtualizace.html">Emulace a Virtualizace</a>
+            <a href="cloudova-reseni.html">Cloudová řešení</a>
         </div>
     </div>
     <header>
         <h1>Emulace a virtualizace</h1>
     </header>
     <main>
-        <h2>Emulace</h2>
+        <h2 id="emulace">Emulace</h2>
         <p>
             Emulátor je program, který umožňuje běh počítačových programů na
             jiné platformě (architektuře, operačním systému), než pro kterou byly
@@ -33,11 +33,10 @@
             systém MS DOS v prostředí novějších Windows, případně i na zcela
             odlišných platformách (Linux).
         </p>
-        <h3>Zajímavé odkazy:</h3>
+        <h3 id="priklady-emulatoru">Příklady emulátorů:</h3>
             <p><b>Emulátor pro DOS:</b> Program <a href="https://www.dosbox.com/download.php?main=1" target="_blank">DOSBOX</a> dokáže emulovat ("Napodobit") prostředí starého operačního systému DOS na různých platformách.</p>
             <p><b>Emulator androidu:</b> Program <a href="https://www.bluestacks.com/" target="_blank">BlueStacks</a> dokáže emulovat prostředí zařízení s operačním systémem Android na jiných operačních systémech.</p>
-        </dl>
-        <h2>Virtualizace</h2>
+        <h2 id="virtualizace">Virtualizace</h2>
         <p>
             Virtualizace označuje v informatice postupy a techniky, které umožňují
             v počítači přistupovat k dostupným zdrojům jiným způsobem,
@@ -46,32 +45,32 @@
             hardwarové komponenty (např. virtuální procesory, virtuální paměť), až
             po konkrétní softwarové prostředí (virtualizace operačního systému).
         </p>
-        <h3>Virtuální stroj</h3>
+        <h3 id="virtualni-stroj">Virtuální stroj</h3>
         <p>
             Virtuální stroj je speciální software, který dokáže simulovat skutečný počítač
             (včetně jeho procesoru, paměti, disku, přídavných karet) a umožňuje instalaci
             OS i dalších programů. Podmínkou virtualizace je výkonný počítač a potřebný
-            software - např. Virtual PC (Microsoft), VirtualBox (Oracle), VMWare apod.
+            software - např. <i>Virtual PC</i> (Microsoft), <i>VirtualBox</i> (Oracle), <i>VMWare</i> apod.
         </p>
         <div class="row">
             <div class="collum-50">
-                <a href="https://www.virtualbox.org/" target="_blank"><img src="../images/virtualbox.jpg" width="100%"></a>
+                <a href="https://www.virtualbox.org/" target="_blank"><img src="../images/virtualbox.jpg" style="width: 100%;" alt="logo Virtual Box"></a>
             </div>
             <div class="collum-50">
-                <a href="https://www.vmware.com/products/workstation-pro.html" target="_blank"><img src="../images/VMware.jpg" width="100%"></a>
+                <a href="https://www.vmware.com/products/workstation-pro.html" target="_blank"><img src="../images/VMware.jpg" style="width: 100%;" alt="Logo VMWare"></a>
             </div>
         </div>
-        <h3>Využití virtualizace</h3>
+        <h3 id="vyuziti">Využití virtualizace</h3>
         <p>
             Virtuální stroje se používají z bezpečnostních důvodů pro běh některých aplikací,
             aby tyto nemohly ohrozit hostitelský počítač a jeho operační systém. Často
             jsou využívány i pro testování nových aplikací. Velmi přínosná je virtualizace
-            na úrovni serverů - tzv. konsolidace serverů nabízí dokonalejší využití hardware,
+            na úrovni serverů - tzv. <b>konsolidace serverů</b> nabízí dokonalejší využití hardware,
             oddělený běh síťových aplikací i vyšší bezpečnost dat.
         </p>
     </main>
     <footer>
-        <p>&copy; 2022 - Autor: Filip Jedlička, IT &#xAE;</p>
+        <p>&copy; 2022 - Autor: Filip Jedlička, IT &reg;</p>
     </footer>
 </body>
 </html>
