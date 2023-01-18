@@ -3,6 +3,7 @@ body{
     padding: 0px;
     width: 100%;
     font-size: 17px;
+    font-family: sans-serif;
 }
 main{
     max-width: 1140px;
@@ -118,6 +119,9 @@ p.cara{
     border-style:solid;
     padding-left: 20px;
     border-radius: 10px;
+}
+.normalni{
+    font-family: sans-serif;
 }
 .zvyrazneni{
   color:#34b30a;
