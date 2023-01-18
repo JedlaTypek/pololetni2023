@@ -26,8 +26,8 @@ header{
 footer{
     background-color: #000000;
     color:#34b30a;
-    font-family: "VT323", sans-serif;
-    text-transform: uppercase;
+    font-family: "VT323", sans-serif; !important
+    text-transform: uppercase; !important
     width: 100%;
     padding-top: 2vh;
     padding-bottom: 2vh;
