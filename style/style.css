@@ -44,7 +44,6 @@ footer{
     justify-content: center;
     font-family: "VT323", sans-serif;
     text-transform: uppercase;
-    font-size: 4vh; !important
     margin-left: auto;
     margin-right: auto;
     max-width: 1140px;
@@ -61,7 +60,7 @@ footer{
     padding-top: 20px;
     padding-bottom: 20px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 4vh;
 }
 
 .topnav a:hover {
